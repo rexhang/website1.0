@@ -1,0 +1,81 @@
+
+.HeaderUl li:first-child img
+{
+    margin: 10px 0;
+}
+.Header
+{
+    max-width: 1024px;
+}
+.HeaderULSecond li a
+{
+    padding: 15px!important;
+}
+.HeaderULSecond li a.HeadLoginn
+{
+    font-family: PingFangSC-Light;
+    font-size: 14px;
+
+    text-align: center;
+    letter-spacing: 0;
+
+    color: #ff5a5f!important;
+}
+@media screen and (min-width: 768px)
+{
+    .HeaderULSecond li a.HeadLoginn
+    {
+        margin-left: 50px;
+    }
+}
+.HeaderULSecond li a.HeadSignupn
+{
+    text-align: center;
+
+    color: #ff5a5f!important;
+    border: 1px solid #ff5a5f;
+    border-radius: 3px;
+}
+.HeaderULSecond li a
+{margin: 10px;
+    padding: 7px 9px!important;
+}
+.HeaderULSecond li a.HeadHelp
+{
+    z-index: 1002;
+
+    color: #fff!important;
+    border-radius: 3px;
+    background: #ff5a5f;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover
+{
+    background-color: inherit;
+}
+.navbar-default .navbar-nav > .help-li > a,
+.navbar-default .navbar-nav > .help-li > a:focus,
+.navbar-default .navbar-nav > .help-li > a:hover,
+.HeaderULSecond li a.HeadHelp:hover
+{
+    background-color: #ff5a5f;
+}
+.navbar-default .navbar-nav > .UserDropdown > a,
+.navbar-default .navbar-nav > .UserDropdown > a:focus,
+.navbar-default .navbar-nav > .UserDropdown > a:hover
+{
+    background-color: inherit;
+}
+/*a.HeadHelp + .dropdown-menu{*/
+.navbar-nav .help-li .dropdown-menu
+{
+    top: 77%;
+    left: -92%!important;
+
+    min-width: 100px;
+    margin: 0;
+    padding: 0;
+
+    border-radius: 5px;
+    background-color: #ff5a5f;
+}

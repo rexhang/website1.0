@@ -1,0 +1,1 @@
+function showBackToTop(){var o=document.documentElement.scrollTop||window.pageYOffset||document.body.scrollTop;o>=scrollHeight?$("#backTop").show():$("#backTop").hide()}function backToTop(){$("#backTop").click(function(){$("html, body").animate({scrollTop:0})})}var scrollHeight=$("body").height();showBackToTop(),$(window).scroll(function(){showBackToTop()}),backToTop();

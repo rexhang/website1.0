@@ -1,0 +1,98 @@
+body {
+  font-family: 'Microsoft YaHei';
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+#footercss .nav-bg-f {
+  width: 100%;
+  background-color: #3c3c3c;
+  padding: 16px 0; }
+  #footercss .nav-bg-f .Header-f {
+    max-width: 1200px;
+    margin: 0 auto; }
+    #footercss .nav-bg-f .Header-f .logo-box {
+      font-size: 24px;
+      height: 43px;
+      line-height: 43px;
+      color: #fff;
+      float: left;
+      margin-bottom: 10px;
+      letter-spacing: 2px; }
+      #footercss .nav-bg-f .Header-f .logo-box img {
+        margin-right: 16px;
+        display: inline-block;
+        width: 45px;
+        height: 45px; }
+      #footercss .nav-bg-f .Header-f .logo-box:hover {
+        text-decoration: none; }
+    #footercss .nav-bg-f .Header-f #omylist {
+      display: block;
+      float: right;
+      margin-bottom: 0;
+      margin-top: 14px; }
+      #footercss .nav-bg-f .Header-f #omylist li {
+        float: left;
+        padding: 0 1.5rem; }
+        #footercss .nav-bg-f .Header-f #omylist li a {
+          color: #fff;
+          font-size: 16px; }
+          #footercss .nav-bg-f .Header-f #omylist li a:hover {
+            text-decoration: none; }
+        #footercss .nav-bg-f .Header-f #omylist li a:not(.squares2):hover {
+          text-decoration: none;
+          color: #36ccb5 !important; }
+        #footercss .nav-bg-f .Header-f #omylist li .squares2 {
+          position: relative;
+          top: -2px; }
+
+#comp {
+  height: 75px;
+  width: 100%;
+  background-color: #454545; }
+  #comp .ww_1200 {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    box-sizing: border-box; }
+    #comp .ww_1200 .copinfo {
+      font-size: 16px;
+      color: #ebebeb;
+      margin-top: 12px; }
+    #comp .ww_1200 .nameinfo {
+      font-size: 14px;
+      color: #a9a9a9; }
+      #comp .ww_1200 .nameinfo span {
+        margin-left: 20px; }
+        #comp .ww_1200 .nameinfo span:first-child {
+          margin-left: 0; }
+
+@media screen and (max-width: 1200px) {
+  #comp .ww_1200 {
+    width: 100%; }
+
+  #comp .ww_1200 .nameinfo span {
+    display: block;
+    margin-left: 0; }
+
+  #comp {
+    height: auto;
+    padding: 0 15px; }
+
+  #footercss .nav-bg-f .Header-f {
+    width: 100%;
+    padding: 0 1.5rem; }
+
+  #footercss .nav-bg-f .Header-f .logo-box {
+    float: none; }
+
+  #footercss .nav-bg-f .Header-f #omylist {
+    float: none;
+    margin-top: 1.5rem; } }
+@media screen and (max-width: 768px) {
+  #footercss .nav-bg-f .Header-f #omylist li .squares2 {
+    display: none; } }

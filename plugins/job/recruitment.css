@@ -1,0 +1,125 @@
+.recruitment_detail li{
+    overflow: hidden;
+    height: auto;
+}
+.recruitment_detail li>h2{
+    text-align: right;
+    float: left;
+    color:#464747;
+    font-size: 20px;
+    width: 20%;
+    margin-top: 56px;
+    cursor: pointer;
+}
+.recruitment_detail li .detail_require dl{
+    display: none;
+    position: absolute;
+}
+
+.recruitment_detail li>h2:after{
+    content: "</>";
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #c9c9c9;
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+    left:-22px;
+    z-index:1;
+    color:#c9c9c9;
+    font-size: 12px;
+    text-align: center;
+    line-height: 19px;
+    transition: all 0.5s;
+}
+.recruitment_detail .on+ .detail_require>dl{
+    display: block;
+}
+.recruitment_detail li>h2:hover:after,.recruitment_detail li .on:after{
+    content: "</>";
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    left:0;
+    display: inline-block;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    background: #65d6f9;
+    margin-left: 28px;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+
+.recruitment_detail li>.detail_require{
+    float: left;
+    width: 70%;
+    border-left: 1px #ccc dashed;
+    margin-left: -32px;
+    padding-left: 85px;
+    overflow: hidden;
+    padding-top: 54px;
+    padding-bottom: 0px;
+}
+.recruitment_detail li>.detail_require{
+    padding-bottom: 60px;
+}
+
+.recruitment_detail li:last-child >.detail_require{
+    padding-bottom: 136px;
+}
+.recruitment_detail dt{
+    overflow: hidden;
+}
+.recruitment_detail dt h1{
+    font-size: 24px;
+    color: #353535;
+    line-height: 30px;
+    float: left;
+    margin-top: 14px;
+}
+.recruitment_detail dt a{
+    float: right;
+    display: inline-block;
+    width: 150px;
+    height: 47px;
+    background: #ccc;
+    line-height: 47px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 2px;
+    transition: background-color 0.5s;
+
+}
+.recruitment_detail dt a:hover{
+    background-color: #65d6f9;
+    transition:background-color 0.5s;
+}
+.recruitment_detail dd h2{
+    font-size: 22px;
+    margin-top: 34px;
+    color:#353535;
+    line-height: 30px;
+    margin-bottom: 22px;
+}
+/*.recruitment_detail dd h2:before{
+    content: "●";
+    color:#65d6f9;
+    margin-right: 14px;
+    vertical-align: 2px;
+}*/
+.recruitment_detail dd p{
+    margin-left: 18px;
+    font-size: 18px;
+    line-height: 26px;
+    color:#353535;
+}
+.recruitment_detail dd p.job-tit:before{
+    content: "●";
+    color:#65d6f9;
+    margin-right: 14px;
+    vertical-align: 2px;
+}

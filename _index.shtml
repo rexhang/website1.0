@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>_index</title>
+    <style type="text/css">
+    a:link{
+        color: red;
+    }
+    a:visited{
+        color: red;
+    }
+    a:hover{
+        color: green;
+    }
+    </style>
+</head>
+<body>
+    <a href="index.html" target="_blank">主页</a>
+    <br>
+    <a href="dynamic-mixin.php" target="_blank">动态</a>
+    <br>
+    <a href="product-mixin.php" target="_blank">产品</a>
+    <br>
+    <a href="service-mixin.php" target="_blank">服务</a>
+    <br>
+    <a href="job-mixin.php" target="_blank">招聘</a>
+    <br>
+    <a href="about-mixin.php" target="_blank">关于</a>
+</body>
+</html>

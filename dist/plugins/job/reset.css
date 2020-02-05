@@ -1,0 +1,41 @@
+/*reset*/
+*{padding: 0;margin: 0;font-weight: normal;font-family: arial,"Microsoft yahei"}
+a{text-decoration: none;}
+ul{list-style: none;}
+input{outline: none;padding:0;}
+button{border:none;outline: none}
+img{border:none;}
+
+/*public style*/
+.w100per{
+    width: 100%;
+}
+.center{
+    margin:0 auto;
+    width: 1200px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.clearFix,.clearFix:before,.clearFix:after{
+    clear:both;
+    overflow: hidden;
+}
+.clear{
+    overflow: hidden;
+}
+.abs{
+    position: absolute;
+}
+.rel{
+    position: relative;
+}
+.tc{
+    text-align: center;
+}
+.ml0{
+    margin-right: 0!important;
+}

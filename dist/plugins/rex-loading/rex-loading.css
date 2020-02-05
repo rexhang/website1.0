@@ -1,0 +1,96 @@
+/* loadingAnimations */
+@-webkit-keyframes lodings
+{
+    0%
+    {
+        -webkit-transform: rotate(0deg) scale(1);
+                transform: rotate(0deg) scale(1);
+    }
+    50%
+    {
+        -webkit-transform: rotate(180deg) scale(.6);
+                transform: rotate(180deg) scale(.6);
+    }
+    100%
+    {
+        -webkit-transform: rotate(360deg) scale(1);
+                transform: rotate(360deg) scale(1);
+    }
+}
+@keyframes lodings
+{
+    0%
+    {
+        -webkit-transform: rotate(0deg) scale(1);
+                transform: rotate(0deg) scale(1);
+    }
+    50%
+    {
+        -webkit-transform: rotate(180deg) scale(.6);
+                transform: rotate(180deg) scale(.6);
+    }
+    100%
+    {
+        -webkit-transform: rotate(360deg) scale(1);
+                transform: rotate(360deg) scale(1);
+    }
+}
+#bg666
+{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0,0,0,.6);
+}
+#bg666 #animateFather
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 60;
+    height: 60;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+#bg666 #animateChild1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 60px;
+    height: 60px;
+
+    -webkit-animation: lodings 1s ease-in-out 0s infinite;
+            animation: lodings 1s ease-in-out 0s infinite;
+
+    border: 4px solid #94e1ff;
+    border-color: transparent #94e1ff;
+    border-radius: 50%;
+}
+#bg666 #animateChild2
+{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+
+    display: block;
+
+    width: 30px;
+    height: 30px;
+
+    -webkit-animation: lodings 1s ease-in-out .5s infinite reverse;
+            animation: lodings 1s ease-in-out .5s infinite reverse;
+
+    border: 4px solid #ff425e;
+    border-color: transparent #ff425e;
+    border-radius: 50%;
+}
